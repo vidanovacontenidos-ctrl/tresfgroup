@@ -1,0 +1,24 @@
+:root{
+    --navy: #101922;
+    --navy-soft: #16212D;
+    --navy-deep: #0B121A;
+    --line: rgba(233,238,243,0.14);
+    --text: #E9EEF3;
+    --muted: #94A2B0;
+    --brass: #C3CEDA;
+    --brass-hi: #E9EEF3;
+    --steel: #7C8B9B;
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0; background:var(--navy); color:var(--text);
+    font-family:'Inter',sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{ color:inherit; text-decoration:none; }
+  .wrap{ max-width:1160px; margin:0 auto; padding:0 32px; }
+  .mono{
+    font-family:'IBM Plex Mono',monospace; font-size:0.7rem;
+    letter-spacing:0.18em; text-transform:uppercase; color:var(--brass);
+  }

@@ -1,0 +1,56 @@
+/* ---------- NAV ---------- */
+  nav{
+    position:fixed; top:0; left:0; right:0; z-index:60;
+    background:transparent; border-bottom:1px solid transparent;
+    transition:background .35s ease, border-color .35s ease, height .3s ease;
+  }
+  nav.solid{
+    background:rgba(16,25,34,0.92); backdrop-filter:blur(12px);
+    border-bottom-color:var(--line);
+  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:80px; }
+  .brand{ display:flex; align-items:center; gap:13px; }
+  .brand svg{ width:30px; height:30px; display:block; }
+  .brand-txt{ display:flex; flex-direction:column; line-height:1; }
+  .brand-name{ font-size:1.24rem; font-weight:700; letter-spacing:0.2em; }
+  .brand-desc{
+    font-family:'IBM Plex Mono',monospace; font-size:0.52rem;
+    letter-spacing:0.26em; color:var(--muted); margin-top:7px;
+  }
+  .nav-links{ display:flex; gap:34px; }
+  .nav-links a{
+    font-size:0.82rem; font-weight:500; letter-spacing:0.05em;
+    color:var(--muted); position:relative; padding-bottom:4px;
+  }
+  .nav-links a::after{
+    content:""; position:absolute; left:0; bottom:0; height:1px; width:0;
+    background:var(--brass); transition:width .3s ease;
+  }
+  .nav-links a:hover{ color:var(--text); }
+  .nav-links a:hover::after{ width:100%; }
+  .nav-right{ display:flex; align-items:center; gap:18px; }
+  .lang{ display:flex; gap:10px; }
+  .lang button{
+    background:none; border:none; cursor:pointer; padding:4px 2px;
+    font-family:'IBM Plex Mono',monospace; font-size:0.66rem;
+    letter-spacing:0.12em; color:var(--muted); transition:color .2s;
+  }
+  .lang button:hover{ color:var(--text); }
+  .lang button.on{ color:var(--brass); border-bottom:1px solid var(--brass); }
+
+  .btn{
+    display:inline-flex; align-items:center; gap:10px;
+    font-family:'Inter',sans-serif; font-size:0.78rem; font-weight:600;
+    letter-spacing:0.1em; text-transform:uppercase;
+    padding:14px 26px; border:1px solid var(--brass); color:var(--brass);
+    background:transparent; cursor:pointer; transition:all .25s ease;
+  }
+  .btn:hover{ background:var(--text); color:var(--navy-deep); border-color:var(--text); }
+  .btn-solid{ background:var(--text); color:var(--navy-deep); border-color:var(--text); }
+  .btn-solid:hover{ background:#fff; border-color:#fff; }
+
+  .burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; }
+  .burger i{ width:22px; height:1.5px; background:var(--text); display:block; }
+  .mobile-menu{ display:none; flex-direction:column; gap:20px; padding:26px 0 8px; border-top:1px solid var(--line); }
+  .mobile-menu.open{ display:flex; }
+  .mobile-menu a{ font-size:0.95rem; font-weight:500; }

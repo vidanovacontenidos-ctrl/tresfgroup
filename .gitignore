@@ -1,0 +1,23 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Dependencias y build (por si más adelante se suma toolchain)
+node_modules/
+dist/
+.cache/
+
+# Entorno
+.env
+.env.local
+
+# Originales sin optimizar — no van al repo
+assets/img/*-original.*
+assets/video/*-original.*
