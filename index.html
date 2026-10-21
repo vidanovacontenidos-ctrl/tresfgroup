@@ -2,329 +2,406 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TRES F GROUP — Capital · Trade · Advisory</title>
-<meta name="description" content="Asesoría en entrada y operación de capital extranjero en Argentina. Estructuración de inversión, comercio exterior y asuntos regulatorios.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>COLANGUIL S.R.L. — Minerales · Energía · Logística</title>
+<meta name="description" content="Provisión de arena de fractura, baritina y cal para la energía y la minería argentina, con origen en San Juan. Procesamiento, logística y proyectos.">
+<meta name="theme-color" content="#0F1E33">
+<meta property="og:title" content="COLANGUIL S.R.L. — Minerales · Energía · Logística">
+<meta property="og:description" content="Arena de fractura, baritina y cal para Vaca Muerta y la minería, desde San Juan.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/cordillera-h.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%23FFFFFF'/%3E%3Cpath d='M9 11H31' stroke='%230E1216' stroke-width='3'/%3E%3Cpath d='M9 20H25' stroke='%231B3F8B' stroke-width='3'/%3E%3Cpath d='M9 29H19' stroke='%236C7683' stroke-width='3'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/css/01-base.css">
-  <link rel="stylesheet" href="assets/css/02-nav.css">
-  <link rel="stylesheet" href="assets/css/03-hero-legacy.css">
-  <link rel="stylesheet" href="assets/css/04-sections.css">
-  <link rel="stylesheet" href="assets/css/05-theme.css">
-  <link rel="stylesheet" href="assets/css/06-modules.css">
-  <link rel="stylesheet" href="assets/css/07-hero.css">
-  <link rel="stylesheet" href="assets/css/08-motion.css">
-  <link rel="stylesheet" href="assets/css/09-responsive.css">
-  <script src="assets/js/01-preload.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<a class="skip" href="#contenido" data-t="skip">Saltar al contenido</a>
 
-<div class="read-bar" id="readBar"></div>
-
-<nav>
+<header class="site-head" id="head">
   <div class="wrap">
-    <a href="#" class="brand">
-      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Tres F">
-        <rect x="1.2" y="1.2" width="37.6" height="37.6" stroke="#C3CEDA" stroke-width="1.4"/>
-        <path d="M11 11H29" stroke="#E9EEF3" stroke-width="2.2" stroke-linecap="square"/>
-        <path d="M11 19.6H24" stroke="#C3CEDA" stroke-width="2.2" stroke-linecap="square"/>
-        <path d="M11 28.2H19" stroke="#7C8B9B" stroke-width="2.2" stroke-linecap="square"/>
-      </svg>
-      <span class="brand-txt">
-        <span class="brand-name">TRES F</span>
-        <span class="brand-desc">CAPITAL · TRADE · ADVISORY</span>
-      </span>
+    <a href="#inicio" class="brand" aria-label="Colanguil">
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1.2" y="1.2" width="37.6" height="37.6" stroke="currentColor" stroke-opacity=".55" stroke-width="1.4"/><path d="M8 26.5 15.5 15l4.6 6.6 3.7-4.6 8.2 9.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/><path d="M8 31H32" stroke="#C8893B" stroke-width="2.2" stroke-linecap="square"/></svg>
+      <span><span class="brand-name">COLANGUIL</span><span class="brand-desc" data-t="brand_d">MINERALES · ENERGÍA · LOGÍSTICA</span></span>
     </a>
-
-    <div class="nav-links">
-      <a href="#unidades" data-i="n1">Unidades</a>
-      <a href="#enfoque" data-i="n2">Enfoque</a>
-      <a href="#honorarios" data-i="n4">Honorarios</a>
-    </div>
-
-    <div class="nav-right">
-      <div class="lang">
-        <button class="on" data-l="es">ES</button>
-        <button data-l="en">EN</button>
-      </div>
-      <a href="#contacto" class="btn btn-solid" data-i="nav_cta">Contacto</a>
-      <button class="burger" id="burger" aria-label="Menú"><i></i><i></i><i></i></button>
-    </div>
-
-    <div class="mobile-menu" id="mmenu">
-      <a href="#unidades" data-i="n1">Unidades</a>
-      <a href="#enfoque" data-i="n2">Enfoque</a>
-      <a href="#honorarios" data-i="n4">Honorarios</a>
-      <a href="#contacto" data-i="nav_cta">Contacto</a>
-    </div>
-  </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="hero-media">
-    <video id="heroVid" autoplay muted loop playsinline preload="auto" src="assets/video/hero.mp4"></video>
-    <div class="hero-grain"></div>
-  </div>
-
-  <div class="stage">
-    <div class="st-copy">
-      <p class="eyebrow" data-i="h_eye">Inversión · Comercio · Asesoría</p>
-      <h1>
-        <span class="ln" data-i="h1a">Capital que entra.</span>
-        <span class="ln" data-i="h1b">Mercadería que sale.</span>
-        <span class="ln em" data-i="h1c">Una sola estructura.</span>
-      </h1>
-      <div class="tagrow">
-        <span class="play" aria-hidden="true">
-          <svg viewBox="0 0 13 14"><path d="M1.4 1.3 11.6 7 1.4 12.7z" fill="#0b1526"/></svg>
-        </span>
-        <span class="tag" data-i="h_tag">Asesoría en entrada y operación de capital extranjero en Argentina.</span>
-      </div>
-    </div>
-
-    <aside class="panel" aria-label="Unidades">
-      <span class="p-title" data-i="p_title">Unidades</span>
-      <span class="p-dot" aria-hidden="true"></span>
-
-      <ul class="p-units">
-        <li><b data-i="pu1">Capital</b><span data-i="pu1d">Estructuración de inversión</span></li>
-        <li><b data-i="pu2">Trade</b><span data-i="pu2d">Importación y exportación</span></li>
-        <li><b data-i="pu3">Advisory</b><span data-i="pu3d">Regulatorio e institucional</span></li>
-      </ul>
-
-      <span class="p-foot" data-i="p_foot">Un socio responsable por operación</span>
-    </aside>
-
-    <div class="st-foot">
-      <a class="pill wa" id="waHero" href="#" target="_blank" rel="noopener">
-        <span class="pill-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.5-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3a8.2 8.2 0 1 1 7.2 3.9z"/></svg>
-        </span>
-        <b data-i="h_wa">Escribir por WhatsApp</b>
-        <span class="knob" aria-hidden="true">
-          <svg viewBox="0 0 18 18"><path d="m6.6 3.6 6 5.4-6 5.4" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
-        </span>
-      </a>
-
-      <a class="pill ghost" href="#unidades">
-        <b data-i="h_cta2">Ver unidades</b>
-        <span class="knob dark" aria-hidden="true">
-          <svg viewBox="0 0 18 18"><path d="M9 3.6v10.8M4.6 10l4.4 4.4L13.4 10" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
-        </span>
-      </a>
-    </div>
+    <nav class="nav" aria-label="Principal">
+      <a href="#arena" data-t="nav_p">Productos</a>
+      <a href="#operacion" data-t="nav_o">Operación</a>
+      <a href="#calidad" data-t="nav_q">Calidad y HSE</a>
+      <a href="#proyectos" data-t="nav_y">Proyectos</a>
+      <a href="#contacto" data-t="nav_c">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="es" class="on"><span>ES</span></button><button type="button" data-l="en"><span>EN</span></button></div>
+    <a href="#contacto" class="btn btn-ocre" data-t="cta">Solicitar cotización</a>
+    <button type="button" class="burger" id="burger" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.8"/></svg>
+    </button>
   </div>
 </header>
 
-<section id="unidades">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="mono" data-i="u_eye">Unidades</span>
-      <h2 data-i="u_title">Tres frentes, <strong>una sola mesa</strong></h2>
-      <p data-i="u_lead">Un inversor extranjero rara vez enfrenta una única necesidad. Las tres unidades operan de forma coordinada, con un único interlocutor responsable de la relación.</p>
-    </div>
-
-    <div class="units">
-      <div class="unit reveal">
-        <div class="unit-photo"><img src="assets/img/unit-capital.jpg" alt=""></div>
-        <div class="sub">01</div>
-        <h3>Tres F Capital</h3>
-        <p data-i="u1p">Entrada y estructuración de inversión extranjera en Argentina.</p>
-        <ul>
-          <li data-i="u1a">Estructuración de la operación</li>
-          <li data-i="u1b">Due diligence de contrapartes locales</li>
-          <li data-i="u1c">Identificación de socios y activos</li>
-          <li data-i="u1d">Acompañamiento hasta el cierre</li>
-        </ul>
-      </div>
-
-      <div class="unit reveal">
-        <div class="unit-photo"><img src="assets/img/unit-trade.jpg" alt=""></div>
-        <div class="sub">02</div>
-        <h3>Tres F Trade</h3>
-        <p data-i="u2p">Importación, exportación y comercio interno.</p>
-        <ul>
-          <li data-i="u2a">Régimen aduanero y clasificación</li>
-          <li data-i="u2b">Operaciones de importación y exportación</li>
-          <li data-i="u2c">Distribución y comercio interno</li>
-          <li data-i="u2d">Vinculación con proveedores y compradores</li>
-        </ul>
-      </div>
-
-      <div class="unit reveal">
-        <div class="unit-photo"><img src="assets/img/unit-advisory.jpg" alt=""></div>
-        <div class="sub">03</div>
-        <h3>Tres F Advisory</h3>
-        <p data-i="u3p">Asuntos regulatorios, institucionales y de entrada al mercado.</p>
-        <ul>
-          <li data-i="u3a">Marco regulatorio y cambiario</li>
-          <li data-i="u3b">Relaciones institucionales</li>
-          <li data-i="u3c">Proyectos con gobiernos provinciales</li>
-          <li data-i="u3d">Estrategia de market entry</li>
-        </ul>
-      </div>
-    </div>
+<div class="menu" id="menu" hidden role="dialog" aria-modal="true" aria-labelledby="menu-t">
+  <div class="menu-top">
+    <span class="eyebrow" id="menu-t" data-t="m_t">Menú</span>
+    <button type="button" class="menu-close" id="menu-close" aria-label="Cerrar menú">
+      <svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 3l12 12M15 3 3 15" stroke="currentColor" stroke-width="1.8"/></svg>
+    </button>
   </div>
-</section>
-
-
-<section class="band">
-  <div class="band-bg"><img src="assets/img/band-market.jpg" alt=""></div>
-  <div class="wrap band-inner">
-    <span class="mono" data-i="b_eye">Argentina</span>
-    <h2 data-i="b_title">Un mercado que premia<br><strong>a quien lo conoce</strong></h2>
-    <p data-i="b_lead">Regulación cambiante, marcos cambiarios propios y ciclos cortos. Operar en este mercado exige lectura local, no la aplicación directa de modelos externos.</p>
+  <nav aria-label="Menú móvil">
+    <a href="#arena"><b data-t="nav_p">Productos</b><span>01</span></a>
+    <a href="#operacion"><b data-t="nav_o">Operación</b><span>02</span></a>
+    <a href="#calidad"><b data-t="nav_q">Calidad y HSE</b><span>03</span></a>
+    <a href="#proyectos"><b data-t="nav_y">Proyectos</b><span>04</span></a>
+    <a href="#contacto"><b data-t="nav_c">Contacto</b><span>05</span></a>
+  </nav>
+  <div class="menu-foot">
+    <div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="es" class="on"><span>ES</span></button><button type="button" data-l="en"><span>EN</span></button></div>
+    <p class="menu-wa">WhatsApp <b>+54 9 11 2325-8971</b></p>
+    <a href="#contacto" class="btn btn-ocre" data-t="cta">Solicitar cotización</a>
   </div>
-</section>
+</div>
 
+<!-- Indicadores de capítulo -->
+<div class="prog bars" id="bars" aria-label="Capítulos">
+  <button type="button" data-go="0" data-ta="ra1" aria-label="Ir al capítulo 1: Inicio"><i><b></b></i></button>
+  <button type="button" data-go="1" data-ta="ra2" aria-label="Ir al capítulo 2: Arena de fractura"><i><b></b></i></button>
+  <button type="button" data-go="2" data-ta="ra3" aria-label="Ir al capítulo 3: Baritina"><i><b></b></i></button>
+  <button type="button" data-go="3" data-ta="ra4" aria-label="Ir al capítulo 4: Cal"><i><b></b></i></button>
+  <button type="button" data-go="4" data-ta="ra5" aria-label="Ir al capítulo 5: Logística"><i><b></b></i></button>
+</div>
+<nav class="prog rail" id="rail" aria-label="Capítulos">
+  <button type="button" data-go="0"><span class="n">01</span><span class="bar"></span><span class="lbl" data-t="r1">Inicio</span></button>
+  <button type="button" data-go="1"><span class="n">02</span><span class="bar"></span><span class="lbl" data-t="r2">Arena</span></button>
+  <button type="button" data-go="2"><span class="n">03</span><span class="bar"></span><span class="lbl" data-t="r3">Baritina</span></button>
+  <button type="button" data-go="3"><span class="n">04</span><span class="bar"></span><span class="lbl" data-t="r4">Cal</span></button>
+  <button type="button" data-go="4"><span class="n">05</span><span class="bar"></span><span class="lbl" data-t="r5">Logística</span></button>
+</nav>
+<div class="prog vctl">
+  <span class="count" aria-live="polite"><b id="cnum">01</b> <span>/ 05</span></span>
+  <button type="button" class="pp" id="pp" aria-label="Pausar video" aria-pressed="false">
+    <svg class="i-pause" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 2h3v10H3zM8 2h3v10H8z" fill="currentColor"/></svg>
+    <svg class="i-play" viewBox="0 0 14 14" aria-hidden="true" hidden><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg>
+  </button>
+</div>
 
+<main id="contenido">
+<div class="chapters" id="chapters">
 
-<section class="focus" id="enfoque">
-  <div class="wrap">
-    <div class="focus-grid">
-      <div class="reveal">
-        <span class="mono" data-i="f_eye">Enfoque</span>
-        <h2 style="font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:300;line-height:1.2;margin:16px 0 26px;" data-i="f_title">El desafío del inversor extranjero <strong>no es el capital</strong></h2>
-        <div class="focus-photo"><img src="assets/img/focus-chart.jpg" alt=""></div>
-        <div class="quote-card">
-          <p data-i="f_quote">"Quien dirige capital hacia Argentina no enfrenta un problema de capital. Enfrenta un problema de contexto: qué es viable, con quién, en qué plazo y bajo qué marco normativo."</p>
+  <section class="chap" id="inicio" aria-labelledby="t1">
+    <video data-name="cordillera" muted playsinline loop preload="none" poster="assets/img/cordillera-h.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="chap-body"><div class="wrap"><div class="inner">
+      <span class="eyebrow" data-t="ch1_eye">Minería · Energía · Logística · San Juan</span>
+      <h1 id="t1" data-t="ch1_t">Abastecemos la energía y la minería argentina</h1>
+      <p class="lead" data-t="ch1_p">Arena de fractura, baritina y cal con origen en San Juan. Procesamiento, logística y un solo responsable por contrato.</p>
+      <dl class="ficha">
+        <div><dt data-t="ch1_k1">Líneas</dt><dd data-t="ch1_v1">Arena · Baritina · Cal</dd></div>
+        <div><dt data-t="ch1_k2">Base</dt><dd data-t="ch1_v2">San Juan, Argentina</dd></div>
+        <div><dt data-t="ch1_k3">Destinos</dt><dd data-t="ch1_v3">Vaca Muerta y minería</dd></div>
+        <div><dt data-t="ch1_k4">Contrato</dt><dd data-t="ch1_v4">Un solo responsable</dd></div>
+      </dl>
+      <div class="actions">
+        <a href="#contacto" class="btn btn-ocre" data-t="cta">Solicitar cotización</a>
+        <a href="#arena" class="btn btn-line" data-t="ch1_c2">Ver productos</a>
+      </div>
+    </div></div></div>
+  </section>
+
+  <section class="chap" id="arena" aria-labelledby="t2">
+    <video data-name="arena" muted playsinline loop preload="none" poster="assets/img/arena-h.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="chap-body"><div class="wrap"><div class="inner">
+      <span class="eyebrow" data-t="ch2_eye">02 · Arena de fractura</span>
+      <h2 id="t2" data-t="ch2_t">Abastecemos arena de fractura para Vaca Muerta</h2>
+      <p class="lead" data-t="ch2_p">Arena silícea como agente de sostén para la estimulación de pozos no convencionales, lavada, secada y clasificada.</p>
+      <dl class="ficha">
+        <div><dt data-t="ch2_k1">Mallas</dt><dd>30/50 · 40/70 · 100</dd></div>
+        <div><dt data-t="ch2_k2">Referencia</dt><dd>ISO 13503-2 / API RP 19C</dd></div>
+        <div><dt data-t="ch2_k3">Proceso</dt><dd data-t="ch2_v3">Lavado, secado, clasificación</dd></div>
+        <div><dt data-t="ch2_k4">Entrega</dt><dd data-t="ch2_v4">Acopio y despacho a locación</dd></div>
+      </dl>
+      <div class="actions">
+        <a href="#contacto" class="btn btn-ocre" data-line="arena" data-t="cta">Solicitar cotización</a>
+        <a href="#calidad" class="btn btn-line" data-t="ch2_c2">Ver ficha</a>
+      </div>
+    </div></div></div>
+  </section>
+
+  <section class="chap" id="baritina" aria-labelledby="t3">
+    <video data-name="planta" muted playsinline loop preload="none" poster="assets/img/planta-h.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="chap-body"><div class="wrap"><div class="inner">
+      <span class="eyebrow" data-t="ch3_eye">03 · Baritina y procesamiento</span>
+      <h2 id="t3" data-t="ch3_t">Procesamos baritina para lodos de perforación</h2>
+      <p class="lead" data-t="ch3_p">Sulfato de bario molido y clasificado como densificante para fluidos de perforación, una alternativa de origen nacional a la importación.</p>
+      <dl class="ficha">
+        <div><dt data-t="ch3_k1">Mineral</dt><dd>BaSO₄</dd></div>
+        <div><dt data-t="ch3_k2">Densidad</dt><dd data-t="ch3_v2">≥ 4,20 g/cm³</dd></div>
+        <div><dt data-t="ch3_k3">Objetivo</dt><dd>API 13A</dd></div>
+        <div><dt data-t="ch3_k4">Envase</dt><dd data-t="ch3_v4">Big bag o granel</dd></div>
+      </dl>
+      <div class="actions">
+        <a href="#contacto" class="btn btn-ocre" data-line="baritina" data-t="cta">Solicitar cotización</a>
+        <a href="#calidad" class="btn btn-line" data-t="ch2_c2">Ver ficha</a>
+      </div>
+    </div></div></div>
+  </section>
+
+  <section class="chap" id="cal" aria-labelledby="t4">
+    <video data-name="cal" muted playsinline loop preload="none" poster="assets/img/cal-h.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="chap-body"><div class="wrap"><div class="inner">
+      <span class="eyebrow" data-t="ch4_eye">04 · Cal</span>
+      <h2 id="t4" data-t="ch4_t">Proveemos cal para la minería y la industria</h2>
+      <p class="lead" data-t="ch4_p">Cal viva e hidratada del distrito calero sanjuanino, el principal del país.</p>
+      <dl class="ficha">
+        <div><dt data-t="ch4_k1">Tipos</dt><dd>CaO · Ca(OH)₂</dd></div>
+        <div><dt data-t="ch4_k2">Minería</dt><dd data-t="ch4_v2">Control de pH, cobre y oro</dd></div>
+        <div><dt data-t="ch4_k3">Obras</dt><dd data-t="ch4_v3">Estabilización de suelos</dd></div>
+        <div><dt data-t="ch4_k4">Agua</dt><dd data-t="ch4_v4">Tratamiento de efluentes</dd></div>
+      </dl>
+      <div class="actions">
+        <a href="#contacto" class="btn btn-ocre" data-line="cal" data-t="cta">Solicitar cotización</a>
+        <a href="#proyectos" class="btn btn-line" data-t="ch4_c2">Ver modalidades</a>
+      </div>
+    </div></div></div>
+  </section>
+
+  <section class="chap" id="logistica" aria-labelledby="t5">
+    <video data-name="logistica" muted playsinline loop preload="none" poster="assets/img/logistica-h.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="chap-body"><div class="wrap"><div class="inner">
+      <span class="eyebrow" data-t="ch5_eye">05 · Logística</span>
+      <h2 id="t5" data-t="ch5_t">Llevamos cada carga a locación, planta u obra</h2>
+      <p class="lead" data-t="ch5_p">Transporte terrestre de cargas, acopio intermedio y despacho programado, con trazabilidad documental por lote.</p>
+      <dl class="ficha">
+        <div><dt data-t="ch5_k1">Transporte</dt><dd data-t="ch5_v1">Terrestre de cargas</dd></div>
+        <div><dt data-t="ch5_k2">Acopio</dt><dd data-t="ch5_v2">Intermedio</dd></div>
+        <div><dt data-t="ch5_k3">Despacho</dt><dd data-t="ch5_v3">Programado</dd></div>
+        <div><dt data-t="ch5_k4">Control</dt><dd data-t="ch5_v4">Trazabilidad por lote</dd></div>
+      </dl>
+      <div class="actions">
+        <a href="#contacto" class="btn btn-ocre" data-line="logistica" data-t="cta">Solicitar cotización</a>
+        <a href="#operacion" class="btn btn-line" data-t="ch5_c2">Ver operación</a>
+      </div>
+    </div></div></div>
+  </section>
+
+</div>
+
+<div class="after" id="after">
+
+  <section class="sec figures on-dark" id="cifras" aria-labelledby="fg-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow" data-t="fg_eye">Vaca Muerta · San Juan</span>
+        <h2 id="fg-t" data-t="fg_t">La demanda crece más rápido que la oferta cercana</h2>
+        <p data-t="fg_lead">Vaca Muerta ya consume más de 6 millones de toneladas de arena por año, y la mayor parte todavía recorre más de 1.000 km por ruta. San Juan, primer productor de cal del país, suma proyectos de cobre que multiplicarán la demanda de insumos.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b data-t="s0n"><span class="plus">+</span>6 Mt</b><span data-t="s0">de arena por año consume hoy Vaca Muerta</span></div>
+        <div class="stat"><b data-t="s1n">23.784</b><span data-t="s1">etapas de fractura en Vaca Muerta en 2025, un 34% más que en 2024</span></div>
+        <div class="stat"><b data-t="s5n"><span class="plus">+</span>1.000 km</b><span data-t="s5">recorre por ruta la mayor parte de esa arena</span></div>
+        <div class="stat"><b data-t="s2n">10–15 mil t</b><span data-t="s2">de arena por pozo no convencional</span></div>
+        <div class="stat"><b data-t="s3n">10–12 Mt</b><span data-t="s3">de arena por año proyectadas hacia 2030</span></div>
+        <div class="stat"><b data-t="s4n">1,1 Mt</b><span data-t="s4">de cal producidas en San Juan en 2025</span></div>
+      </div>
+      <p class="src" data-t="s_src">Fuentes: NCS Multistage vía LM Neuquén (ene. 2026) · LM Neuquén y Ámbito (2026) · Diario de Cuyo (mar. 2026)</p>
+    </div>
+  </section>
+
+  <section class="sec ops" id="operacion" aria-labelledby="op-t">
+    <div class="wrap">
+      <div class="ops-top">
+        <div class="sec-head">
+          <span class="eyebrow" data-t="f_eye">Operación</span>
+          <h2 id="op-t" data-t="f_title">Cumplimos la especificación y llegamos a destino</h2>
+        </div>
+        <p class="quote" data-t="f_quote">En minerales industriales el valor no está solo en el yacimiento. Está en cumplir la especificación lote a lote y llegar al pozo o a la planta en el plazo que exige la operación.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><span class="n">01</span><h3 data-t="f1t">Origen y calidad</h3><p data-t="f1p">Selección de yacimientos y canteras, caracterización y ensayos de laboratorio antes de comprometer volumen.</p></div>
+        <div class="step"><span class="n">02</span><h3 data-t="f2t">Procesamiento</h3><p data-t="f2p">Lavado, secado, clasificación y molienda hasta la especificación que pide cada cliente.</p></div>
+        <div class="step"><span class="n">03</span><h3 data-t="f3t">Logística</h3><p data-t="f3p">Transporte terrestre de cargas, acopio intermedio y despacho programado a locación, planta u obra.</p></div>
+        <div class="step"><span class="n">04</span><h3 data-t="f4t">Cumplimiento</h3><p data-t="f4p">Trazabilidad documental por lote y adecuación a los requisitos de alta de proveedores, HSE y compliance de cada operadora.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec hse" id="calidad" aria-labelledby="q-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow" data-t="q_eye">Calidad, seguridad y ambiente</span>
+        <h2 id="q-t" data-t="q_title">Controlamos cada lote y cuidamos cada operación</h2>
+        <p data-t="q_lead">Trabajamos con la especificación de cada cliente como punto de partida y con los requisitos HSE de cada operadora como condición para empezar.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><circle cx="13" cy="13" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="m19.2 19.2 7 7M9.5 13l2.5 2.5 4.5-5" stroke="currentColor" stroke-width="1.8"/></svg>
+          <h3 data-t="q1t">Calidad</h3>
+          <p data-t="q1p">Caracterización y ensayos de laboratorio antes de comprometer volumen, control por lote y trazabilidad documental desde el origen hasta la entrega.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M15 3 5 7v7c0 6.5 4.3 11 10 13 5.7-2 10-6.5 10-13V7L15 3Z" stroke="currentColor" stroke-width="1.8"/><path d="m10.5 15 3 3 6-6.5" stroke="currentColor" stroke-width="1.8"/></svg>
+          <h3 data-t="q2t">Seguridad</h3>
+          <p data-t="q2p">Adecuación a los requisitos de alta de proveedores y HSE de cada operadora. Planificamos cargas, rutas y descargas con criterio de seguridad vial y operativa.</p>
+        </div>
+        <div class="pillar">
+          <svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M6 24C6 12 13 6 25 5c0 12-6 19-17 19" stroke="currentColor" stroke-width="1.8"/><path d="M6 24 17 13" stroke="currentColor" stroke-width="1.8"/></svg>
+          <h3 data-t="q3t">Ambiente</h3>
+          <p data-t="q3p">Programamos la logística para reducir viajes en vacío y kilómetros por tonelada, y respetamos los requisitos ambientales de cada operadora y jurisdicción.</p>
         </div>
       </div>
-
-      <div class="focus-list">
-        <div class="focus-item reveal">
-          <div class="n">01</div>
-          <div><h4 data-i="f1t">Lectura del terreno</h4><p data-i="f1p">Entender el marco real de la operación antes de comprometer capital: regulación aplicable, plazos efectivos y contrapartes viables.</p></div>
+      <div class="spec">
+        <div class="txt">
+          <span class="eyebrow" data-t="q_tab_e">Ficha técnica</span>
+          <h3 data-t="q_tab_t">Parámetros de referencia</h3>
+          <p data-t="q_tab_p">Los valores orientativos con los que trabajamos para arena de fractura y baritina. Cada contrato fija su propia especificación y su plan de muestreo.</p>
         </div>
-        <div class="focus-item reveal">
-          <div class="n">02</div>
-          <div><h4 data-i="f2t">Estructura de la operación</h4><p data-i="f2p">Definir el vehículo, la ruta de ingreso de fondos y el esquema societario que hacen la operación ejecutable.</p></div>
-        </div>
-        <div class="focus-item reveal">
-          <div class="n">03</div>
-          <div><h4 data-i="f3t">Ejecución y seguimiento</h4><p data-i="f3p">Acompañamiento hasta el cierre y durante la operación posterior, con un único responsable de la relación.</p></div>
-        </div>
-        <div class="focus-item reveal">
-          <div class="n">04</div>
-          <div><h4 data-i="f4t">Cumplimiento</h4><p data-i="f4p">Due diligence de contrapartes y trazabilidad documental conforme a los estándares que exigen los inversores institucionales.</p></div>
+        <div>
+          <div class="tbl">
+            <table>
+              <thead><tr><th scope="col" data-t="t_h1">Parámetro de referencia</th><th scope="col" data-t="t_h2">Valor</th></tr></thead>
+              <tbody>
+                <tr><td data-t="t5">Arena · mallas</td><td>30/50 · 40/70 · 100</td></tr>
+                <tr><td data-t="t1">Arena · esfericidad y redondez</td><td>≥ 0,6</td></tr>
+                <tr><td data-t="t2">Arena · solubilidad ácida</td><td>&lt; 3 %</td></tr>
+                <tr><td data-t="t3">Arena · turbidez</td><td>≤ 250 NTU</td></tr>
+                <tr><td data-t="t4">Baritina · densidad (API 13A)</td><td data-t="t4v">≥ 4,20 g/cm³</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="spec-note" data-t="t_note">Valores de referencia de ISO 13503-2 / API RP 19C y API 13A. La especificación final se acuerda con cada cliente.</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="focus" id="honorarios">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="mono" data-i="fe_eye">Honorarios</span>
-      <h2 data-i="fe_title">Estructura <strong>transparente</strong></h2>
-      <p data-i="fe_lead">Cada unidad opera con un esquema propio, definido por escrito antes de iniciar el trabajo.</p>
-    </div>
-
-    <div class="fees">
-      <div class="fee reveal">
-        <div class="who">Tres F Capital</div>
-        <h4 data-i="fe1t">Inversión</h4>
-        <p class="how" data-i="fe1h">Retainer + fee de éxito</p>
-        <p data-i="fe1p">Honorario mensual durante la estructuración, más un componente variable al cierre efectivo de la operación.</p>
+  <section class="sec modes" id="proyectos" aria-labelledby="fe-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow" data-t="fe_eye">Modalidades y proyectos</span>
+        <h2 id="fe-t" data-t="fe_title">Definimos cada relación por escrito</h2>
+        <p data-t="fe_lead">Antes de empezar acordamos mineral, volumen, especificación, plazo y punto de entrega.</p>
       </div>
-      <div class="fee reveal">
-        <div class="who">Tres F Trade</div>
-        <h4 data-i="fe2t">Comercio</h4>
-        <p class="how" data-i="fe2h">Fee por operación</p>
-        <p data-i="fe2p">Esquema transaccional por embarque u operación, con tarifa definida según volumen y complejidad.</p>
-      </div>
-      <div class="fee reveal">
-        <div class="who">Tres F Advisory</div>
-        <h4 data-i="fe3t">Asesoría</h4>
-        <p class="how" data-i="fe3h">Retainer o proyecto</p>
-        <p data-i="fe3p">Honorario mensual para acompañamiento continuo, o fee cerrado por proyecto de alcance definido.</p>
+      <div class="fees">
+        <div class="fee"><span class="who" data-t="fe1w">Suministro</span><h3 data-t="fe1t">Contrato de abastecimiento</h3><p class="how" data-t="fe1h">Volumen y especificación pactados</p><p data-t="fe1p">Provisión programada de arena, baritina o cal, con cronograma de entregas y control de calidad por lote.</p></div>
+        <div class="fee"><span class="who" data-t="fe2w">Logística</span><h3 data-t="fe2t">Operación spot y fletes</h3><p class="how" data-t="fe2h">Por lote o por viaje</p><p data-t="fe2p">Compras puntuales, transporte de cargas y acopio para cubrir picos de demanda en locación o planta.</p></div>
+        <div class="fee"><span class="who" data-t="fe3w">Desarrollo</span><h3 data-t="fe3t">Proyectos y socios</h3><p class="how" data-t="fe3h">Asociación o inversión</p><p data-t="fe3p">Desarrollo conjunto de yacimientos, plantas de procesamiento e infraestructura logística con inversores y operadores, nacionales o extranjeros.</p></div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-
-<section id="contacto">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="mono" data-i="c_eye">Contacto</span>
-      <h2 data-i="c_title">Toda operación comienza con <strong>una conversación</strong></h2>
-      <p data-i="c_lead">Escríbanos con el contexto de su operación. Respondemos en un plazo de 48 horas hábiles.</p>
+  <section class="sec team-sec" id="direccion" aria-labelledby="dir-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow" data-t="dir_eye">Dirección</span>
+        <h2 id="dir-t" data-t="dir_title">Una empresa sanjuanina con socios al frente de cada operación</h2>
+        <p data-t="dir_lead">Cada contrato tiene un socio responsable, desde la especificación hasta la entrega.</p>
+      </div>
+      <div class="team">
+        <div class="person"><span class="mono" aria-hidden="true">EC</span><div><h3>Eduardo José Luis Cirelli</h3><p data-t="dir_r1">Socio gerente</p></div></div>
+        <div class="person"><span class="mono" aria-hidden="true">VO</span><div><h3>Valentino Ocampo</h3><p data-t="dir_r2">Socio</p></div></div>
+        <div class="person"><span class="mono" aria-hidden="true">GP</span><div><h3>Gastón Ariel Parra</h3><p data-t="dir_r3">Socio</p></div></div>
+      </div>
     </div>
+  </section>
 
-    <div class="contact-grid">
-      <form id="form" class="reveal" novalidate>
-        <div class="field"><label data-i="cf1">Nombre y apellido</label><input type="text" required></div>
-        <div class="field"><label data-i="cf2">Empresa u organización</label><input type="text" required></div>
-        <div class="field"><label data-i="cf3">País</label><input type="text"></div>
-        <div class="field"><label data-i="cf4">Email</label><input type="email" required></div>
-        <div class="field">
-          <label data-i="cf5">Unidad de interés</label>
-          <select>
-            <option data-i="cf5a">Tres F Capital — inversión</option>
-            <option data-i="cf5b">Tres F Trade — comercio exterior</option>
-            <option data-i="cf5c">Tres F Advisory — asesoría</option>
-            <option data-i="cf5d">Aún no lo tengo definido</option>
-          </select>
+  <section class="sec contact" id="contacto" aria-labelledby="c-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow" data-t="c_eye">Contacto</span>
+        <h2 id="c-t" data-t="c_title">Todo abastecimiento comienza con una especificación</h2>
+        <p data-t="c_lead">Cuéntenos mineral, volumen, especificación y punto de entrega. Respondemos en un plazo de 48 horas hábiles.</p>
+      </div>
+      <div class="contact-grid">
+        <form id="form" novalidate>
+          <div class="field full field-line"><label for="f-line" data-t="cf5">Línea de interés</label>
+            <select id="f-line" name="line">
+              <option value="arena" data-t="cf5a">Arena de fractura</option>
+              <option value="baritina" data-t="cf5b">Baritina</option>
+              <option value="cal" data-t="cf5c">Cal</option>
+              <option value="logistica" data-t="cf5d">Logística y fletes</option>
+              <option value="proyectos" data-t="cf5e">Proyectos e inversión</option>
+            </select></div>
+          <div class="field"><label for="f-name" data-t="cf1">Nombre y apellido</label><input id="f-name" name="name" type="text" autocomplete="name" data-tp="cp1" placeholder="Ej.: Martín Rivas"></div>
+          <div class="field"><label for="f-co" data-t="cf2">Empresa u organización</label><input id="f-co" name="company" type="text" autocomplete="organization" data-tp="cp2" placeholder="Ej.: Servicios de pozo"></div>
+          <div class="field"><label for="f-geo" data-t="cf3">País / provincia</label><input id="f-geo" name="geo" type="text" data-tp="cp3" placeholder="Ej.: Neuquén, Argentina"></div>
+          <div class="field"><label for="f-mail" data-t="cf4">Email</label><input id="f-mail" name="email" type="email" autocomplete="email" data-tp="cp4" placeholder="compras@empresa.com"></div>
+          <div class="field full"><label for="f-msg" data-t="cf6">Volumen, especificación y destino</label><textarea id="f-msg" name="msg" data-tp="cp5" placeholder="Ej.: 8.000 t/mes de malla 40/70, entrega en locación zona Añelo, desde enero."></textarea></div>
+          <div class="consent"><input id="f-ok" name="consent" type="checkbox"><label for="f-ok" data-t="cf7">Autorizo el uso de estos datos para responder mi consulta.</label></div>
+          <div class="form-actions"><button type="submit" class="btn btn-navy" id="f-send" data-t="cf8">Enviar consulta</button><p class="ok" id="f-done" role="status" hidden data-t="cf9">Recibido. Respondemos dentro de las 48 horas hábiles.</p></div>
+        </form>
+        <aside class="side" aria-labelledby="ci-t">
+          <h3 id="ci-t" data-t="ci_t">Contacto directo</h3>
+          <p data-t="ci_lead">Respondemos personalmente, en español o inglés.</p>
+          <div class="row"><div class="k">WhatsApp</div><div class="v"><span class="sel">+54 9 11 2325-8971</span><br><a class="tlink wa-link" href="https://wa.me/5491123258971" target="_blank" rel="noopener"><span data-t="ci_open">Abrir conversación</span> <span aria-hidden="true">→</span></a></div></div>
+          <div class="row"><div class="k" data-t="ci_k4">Horario</div><div class="v" data-t="ci_hrs">Lunes a viernes, 9 a 18 h (GMT-3)</div></div>
+          <div class="row"><div class="k" data-t="ci_k5">Idiomas</div><div class="v" data-t="ci_v5">Español · Inglés</div></div>
+          <div class="row"><div class="k" data-t="ci_k3">Base</div><div class="v" data-t="ci_v3">San Juan, Argentina</div></div>
+          <div class="row"><div class="k" data-t="ci_k6">Respuesta</div><div class="v" data-t="ci_v6">48 horas hábiles</div></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot on-dark">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a href="#inicio" class="brand" aria-label="Colanguil">
+            <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1.2" y="1.2" width="37.6" height="37.6" stroke="currentColor" stroke-opacity=".55" stroke-width="1.4"/><path d="M8 26.5 15.5 15l4.6 6.6 3.7-4.6 8.2 9.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/><path d="M8 31H32" stroke="#C8893B" stroke-width="2.2" stroke-linecap="square"/></svg>
+            <span><span class="brand-name">COLANGUIL</span><span class="brand-desc" data-t="brand_d">MINERALES · ENERGÍA · LOGÍSTICA</span></span>
+          </a>
+          <p class="foot-desc" data-t="ft_d">Provisión, procesamiento y logística de minerales industriales para la energía y la minería argentina.</p>
         </div>
-        <div class="field"><label data-i="cf6">Contexto de la operación</label><textarea></textarea></div>
-        <div class="consent">
-          <input type="checkbox" id="ck" required>
-          <label for="ck" style="font-family:inherit;font-size:0.78rem;letter-spacing:0;text-transform:none;color:var(--muted);margin:0;" data-i="cf7">Autorizo el uso de estos datos para responder mi consulta.</label>
+        <div>
+          <h4 data-t="fc1">Productos</h4>
+          <ul>
+            <li><a href="#arena" data-t="ft1">Arena de fractura</a></li>
+            <li><a href="#baritina" data-t="ft2">Baritina</a></li>
+            <li><a href="#cal" data-t="ft3">Cal</a></li>
+            <li><a href="#logistica" data-t="ft4">Logística y fletes</a></li>
+          </ul>
         </div>
-        <button type="submit" class="btn btn-solid" data-i="cf8">Enviar</button>
-        <div class="form-ok" id="ok" data-i="cf9">Recibido. Respondemos dentro de las 48 horas hábiles.</div>
-      </form>
-
-      <div class="card-info reveal">
-        <div class="info-photo"><img src="assets/img/contact-boardroom.jpg" alt=""></div>
-        <h3 data-i="ci_t">Contacto directo</h3>
-        <p class="ci-lead" data-i="ci_lead">La vía más rápida es WhatsApp. Respondemos personalmente.</p>
-
-        <a class="wa-big" id="waDirect" href="#" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.5-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3a8.2 8.2 0 1 1 7.2 3.9z"/></svg>
-          <span data-i="ci_wa">Escribir por WhatsApp</span>
-        </a>
-
-        <div class="info-row"><div class="k">WhatsApp</div><div class="v"><a id="waPlain" href="#" target="_blank" rel="noopener">+54 9 11 2325-8971</a></div></div>
-        <div class="info-row"><div class="k" data-i="ci_k4">Horario</div><div class="v" data-i="ci_hrs">Lunes a viernes, 9 a 18 h (GMT-3)</div></div>
-        <div class="info-row"><div class="k" data-i="ci_k5">Idiomas</div><div class="v" data-i="ci_v5">Español · Inglés</div></div>
+        <div>
+          <h4 data-t="fc2">Empresa</h4>
+          <ul>
+            <li><a href="#direccion" data-t="dir_eye">Dirección</a></li>
+            <li><a href="#operacion" data-t="nav_o">Operación</a></li>
+            <li><a href="#calidad" data-t="nav_q">Calidad y HSE</a></li>
+            <li><a href="#proyectos" data-t="fe_eye">Modalidades y proyectos</a></li>
+            <li><a href="#cifras" data-t="fl_c">Mercado</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-t="fc3">Contacto</h4>
+          <ul>
+            <li>WhatsApp <span class="sel">+54 9 11 2325-8971</span></li>
+            <li><a class="wa-link" href="https://wa.me/5491123258971" target="_blank" rel="noopener" data-t="ci_open">Abrir conversación</a></li>
+            <li data-t="ci_hrs">Lunes a viernes, 9 a 18 h (GMT-3)</li>
+            <li data-t="ci_v3">San Juan, Argentina</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-t="fc4">Legal</h4>
+          <ul>
+            <li data-t="ft_rs">COLANGUIL S.R.L. (en trámite de inscripción)</li>
+            <li><a href="#inicio" data-t="ft_p">Política de privacidad</a></li>
+            <li><a href="#contacto" data-t="cta">Solicitar cotización</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bot">
+        <span data-t="ft_c">© 2026 COLANGUIL S.R.L. (en trámite de inscripción) · San Juan, Argentina</span>
+        <div class="lang-wrap"><span data-t="ft_lang">Idioma</span><div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="es" class="on"><span>ES</span></button><button type="button" data-l="en"><span>EN</span></button></div></div>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-top">
-      <a href="#" class="brand">
-        <svg viewBox="0 0 40 40" fill="none"><rect x="1.2" y="1.2" width="37.6" height="37.6" stroke="#C3CEDA" stroke-width="1.4"/><path d="M11 11H29" stroke="#E9EEF3" stroke-width="2.2" stroke-linecap="square"/><path d="M11 19.6H24" stroke="#C3CEDA" stroke-width="2.2" stroke-linecap="square"/><path d="M11 28.2H19" stroke="#7C8B9B" stroke-width="2.2" stroke-linecap="square"/></svg>
-        <span class="brand-txt"><span class="brand-name">TRES F</span><span class="brand-desc">CAPITAL · TRADE · ADVISORY</span></span>
-      </a>
-      <div class="foot-units">
-        <span>Tres F Capital</span><span>Tres F Trade</span><span>Tres F Advisory</span>
-      </div>
-    </div>
-    <div class="foot-bot">
-      <p>© 2026 TRES F GROUP</p>
-      <a href="#" data-i="ft_p">Política de privacidad</a>
-    </div>
-  </div>
-</footer>
+</div>
+</main>
 
-<script src="assets/js/02-ui.js"></script>
-<script src="assets/js/03-whatsapp.js"></script>
-<script src="assets/js/04-hero-intro.js"></script>
-<script src="assets/js/05-motion.js"></script>
-
-<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.5-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3a8.2 8.2 0 1 1 7.2 3.9z"/></svg>
-</a>
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>
