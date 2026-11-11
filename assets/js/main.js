@@ -16,7 +16,7 @@
     ch1_k1:'Lines', ch1_v1:'Sand · Barite · Lime', ch1_k2:'Base', ch1_v2:'San Juan, Argentina', ch1_k3:'Markets', ch1_v3:'Vaca Muerta and mining', ch1_k4:'Contract', ch1_v4:'One accountable lead', ch1_c2:'See products',
     ch2_eye:'02 · Frac sand', ch2_t:'We supply frac sand for Vaca Muerta',
     ch2_p:'Silica sand proppant for stimulating unconventional wells, washed, dried and sized.',
-    ch2_k1:'Tested', ch2_k2:'Standards', ch2_k3:'Lab', ch2_v3:'UNSJ report, 2026', ch2_k4:'Delivery', ch2_v4:'Delivered to Añelo', ch2_c2:'See lab results',
+    ch2_k1:'Tested', ch2_k2:'Standards', ch2_k3:'Lab', ch2_v3:'University lab', ch2_k4:'Delivery', ch2_v4:'Delivered to Añelo', ch2_c2:'See lab results',
     ch3_eye:'03 · Barite and processing', ch3_t:'We process barite for drilling fluids',
     ch3_p:'Ground and classified barium sulphate as a weighting agent for drilling fluids, a domestic alternative to imports.',
     ch3_k1:'Mineral', ch3_k2:'Density', ch3_v2:'≥ 4.20 g/cm³', ch3_k3:'Target', ch3_k4:'Packing', ch3_v4:'Big bags or bulk', ch3_c2:'How we work',
@@ -25,7 +25,7 @@
     ch4_k1:'Types', ch4_k2:'Mining', ch4_v2:'pH control, copper and gold', ch4_k3:'Civil works', ch4_v3:'Soil stabilisation', ch4_k4:'Water', ch4_v4:'Effluent treatment', ch4_c2:'See engagement models',
     ch5_eye:'05 · Logistics', ch5_t:'We deliver every load to wellsite, plant or project',
     ch5_p:'Road freight, intermediate stockpiling and scheduled dispatch, with batch-level document traceability.',
-    ch5_k1:'Checks', ch5_v1:'6 per load', ch5_k2:'Chain', ch5_v2:'Origin → receipt', ch5_k3:'Records', ch5_v3:'Weighbridge and waybill', ch5_k4:'Destination', ch5_v4:'Añelo · Neuquén', ch5_c2:'See chain of custody',
+    ch5_k1:'Traceability', ch5_v1:'Documented', ch5_k2:'Chain', ch5_v2:'Origin → receipt', ch5_k3:'Records', ch5_v3:'Weighbridge and waybill', ch5_k4:'Destination', ch5_v4:'Añelo · Neuquén', ch5_c2:'See chain of custody',
     fg_eye:'Vaca Muerta · San Juan', fg_t:'Demand is growing faster than nearby supply',
     fg_lead:'Vaca Muerta already uses more than 6 million tonnes of sand a year, and most of it still travels over 1,000 km by road. San Juan, the country’s top lime producer, is adding copper projects that will multiply demand for inputs.',
     s0n:'<span class="plus">+</span>6 Mt', s0:'of sand a year used in Vaca Muerta today',
@@ -45,36 +45,21 @@
     cut_e:'Mesh sizes', cut_t:'Cuts matched to your completion design',
     cut_p:'Your engineers set the cut. We control grading and off-spec fines in every lot.',
     cut1:'Medium-to-fine sand', cut2:'Fine single cut', cut3:'Intermediate fraction', cut4:'Fine fraction', cut5:'Custom single cuts within the range',
-    chip_ok:'UNSJ-tested', chip_val:'Validated per order', chip_hom:'Qualified per lot',
-    q_tab_e:'Lab evidence', q_tab_t:'Results for sample AVC',
-    q_tab_p:'Summary of the report by the Mining Research Institute, National University of San Juan.',
-    lm_k1:'Report', lm_v1:'UNSJ · IIM No. 012-26', lm_k2:'Date', lm_v2:'30 Mar 2026', lm_k3:'Sample', lm_v3:'AVC · #30/70 and #50/140',
-    lm_k4:'Standards', lm_v4:'API STD 19C (2nd ed., reaffirmed 2026) · ISO 13503-2:2024',
-    lab_cta:'Request technical dossier', lab_cap:'Lab results for sample AVC, #30/70 and #50/140 cuts', t_h1:'Property', t_h3:'Ref.',
-    t1:'Sphericity', lab_d1:'Grain shape: drives packing and conductivity.',
-    lab_r2:'Roundness', lab_d2:'Grain edges: affect mechanical behaviour.',
-    t3:'Turbidity', lab_d3:'Fines that can shed during handling and pumping.',
-    t2:'Acid solubility', lab_d4:'Acid-soluble content under the test method.',
-    lab_r5:'Apparent density', lab_d5:'Grain density: an input to frac design.',
-    lab_r6:'Bulk density', lab_d6:'Mass per bulk volume: the basis for loading and storage.',
-    lab_r7:'Crush test at 9,000 psi', lab_d7:'Fines generated under closure stress. Lower is better.',
-    lab_r8:'Clusters', lab_d8:'Bonded grains that distort the grading.',
-    lv07:'0.7', lv06:'0.6', lvs1:'0.7%', lvs2:'1.1%', lvd1:'2.66 g/cm³', lvd2:'2.65 g/cm³', lvb1:'1.516 g/cm³', lvb2:'1.503 g/cm³',
-    lvc1:'5.5% fines', lvc2:'2.3% fines', lvk:'0.0%', lr06:'≥ 0.6', lrs:'< 3%', lr_na:'No single limit',
-    t_note:'Lab record for the sample tested, not a blanket certification of our range. Fitness for each application is qualified per lot and per client. Ref.: value recommended by the standard · —: no single limit, set by contract.',
+    chip_ok:'Tested', chip_val:'Validated per order', chip_hom:'Qualified per lot',
+    seal_e:'Technical backing', seal_t:'Cuts tested in a university laboratory',
+    seal_p:'#30/70 and #50/140 tested to API STD 19C / ISO 13503-2:2024. Full results in the technical dossier.',
+    seal_cta:'Request technical dossier', seal_wa:'Ask on WhatsApp',
     q_hse_e:'Safety, environment and compliance',
     q1t:'Compliance', q1p:'Paperwork for each operator’s vendor onboarding and compliance requirements, contract by contract.',
     q2t:'Safety', q2p:'We plan loading, routes and unloading for road and operational safety, in line with each operator’s HSE requirements.',
     q3t:'Environment', q3p:'We schedule logistics to cut empty trips and kilometres per tonne, and we follow the environmental requirements of each operator and jurisdiction.',
     cc_eye:'Logistics and chain of custody', cc_t:'Quality arrives intact at the delivery point',
-    cc_lead:'Six checks travel with every load, from origin to receipt at your site.',
+    cc_lead:'Document traceability from origin to receipt at your site.',
     cc_s1:'Origin', cc_s2:'Loading', cc_s3:'In transit', cc_s4:'Receipt',
-    cc_c1t:'Lot identified', cc_c1p:'Unique code, declared cut, linked waybill and storage segregated by cut.',
-    cc_c2t:'Sampling and conformity', cc_c2p:'Spec sheet, control plan and retained sample when agreed.',
-    cc_c3t:'Clean loading', cc_c3p:'Clean hoppers and equipment. No moisture, no mixed cuts.',
-    cc_c4t:'Weighing and paperwork', cc_c4p:'Weighbridge ticket, plate, carrier, date, origin and destination.',
-    cc_c5t:'In-transit integrity', cc_c5p:'Proper covering, seals where required and a transport log.',
-    cc_c6t:'Receipt and close-out', cc_c6p:'Quantity and condition check, incident log and document close-out.',
+    cc_d1:'Lot identified, cut declared and conformity sampling before loading.',
+    cc_d2:'Clean equipment, no moisture or mixed cuts, with weighbridge ticket and waybill per trip.',
+    cc_d3:'Covered load, seals where required and a transport log.',
+    cc_d4:'Quantity and condition check, incident log and document close-out.',
     md_e:'Delivery options',
     md1t:'Ex-works pickup', md1p:'Your carrier collects at the source plant.',
     md2t:'Coordinated freight', md2p:'We select the carrier and coordinate route and slots.',
@@ -108,10 +93,12 @@
   var UI = {
     es:{pause:'Pausar video', play:'Reproducir video', open:'Abrir menú', close:'Cerrar menú',
         wa:'Hola, los contacto desde el sitio de Colanguil. Me interesa consultar por arena, baritina o cal.',
-        dossier:'Solicito el dossier técnico de arena de fractura y el informe UNSJ N.º 012-26.'},
+        dossier:'Solicito el dossier técnico de arena de fractura.',
+        wa_dossier:'Hola, quisiera recibir el dossier técnico de arena de fractura de COLANGUIL.'},
     en:{pause:'Pause video', play:'Play video', open:'Open menu', close:'Close menu',
         wa:'Hello, I am reaching out from the Colanguil website about frac sand, barite or lime.',
-        dossier:'Please send the frac sand technical dossier and UNSJ report No. 012-26.'}
+        dossier:'Please send me the frac sand technical dossier.',
+        wa_dossier:'Hello, I would like to receive the COLANGUIL frac sand technical dossier.'}
   };
   var ES = {t:{}, p:{}, a:{}};
   var nT = $$('[data-t]'), nP = $$('[data-tp]'), nA = $$('[data-ta]');
@@ -127,7 +114,7 @@
     nA.forEach(function(el){ var k = el.getAttribute('data-ta'); var v = en ? EN[k] : ES.a[k]; if (v != null) el.setAttribute('aria-label', v); });
     doc.documentElement.lang = cur;
     $$('.lang button').forEach(function(b){ var on = b.getAttribute('data-l') === cur; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
-    $$('.wa-link').forEach(function(a){ a.href = 'https://wa.me/5491123258971?text=' + encodeURIComponent(UI[cur].wa); });
+    $$('.wa-link').forEach(function(a){ a.href = 'https://wa.me/5491123258971?text=' + encodeURIComponent(UI[cur][a.getAttribute('data-wa') || 'wa']); });
     burger.setAttribute('aria-label', UI[cur].open);
     $('#menu-close').setAttribute('aria-label', UI[cur].close);
     updateBtn();
@@ -254,8 +241,8 @@
   /* ---------------- idioma: botones ---------------- */
   $$('.lang button').forEach(function(b){ b.addEventListener('click', function(){ setLang(b.getAttribute('data-l')); }); });
 
-  /* ---------------- reveal: cadena de custodia y barras de laboratorio ---------------- */
-  var reveal = $$('.chain, .tbl-lab');
+  /* ---------------- reveal: línea de la cadena de custodia ---------------- */
+  var reveal = $$('.chain');
   if ('IntersectionObserver' in window && !mqR.matches && reveal.length){
     doc.documentElement.classList.add('anim');
     var ioR = new IntersectionObserver(function(entries){
