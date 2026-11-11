@@ -47,7 +47,9 @@ Settings → Pages → Source: *Deploy from a branch* → rama `main`, carpeta `
 
 ## Pendientes antes de publicar en producción
 
-- El formulario muestra "Recibido" pero no envía datos. Para recibir consultas, conectarlo a un servicio (Formspree, Netlify Forms, etc.) o a un mail.
+- El formulario muestra "Recibido" pero no envía datos. Para recibir consultas, conectarlo a un servicio (Formspree, Netlify Forms, etc.) o a un mail. Mientras tanto, el botón "Solicitar dossier técnico" solo completa el mensaje del formulario; el pedido real llega por WhatsApp o por el teléfono técnico-comercial.
+- Teléfono técnico-comercial: +54 264 4000666 (Lic. Eduardo Cirelli). Confirmar que es una línea publicable y que la denominación "Lic. Eduardo Cirelli · Técnico-comercial" es la deseada. Aparece en contacto, footer y JSON-LD; si cambia, buscar `2644000666`, `4000666` y `400-0666` en `index.html` y `assets/js/main.js`.
+- Dossier técnico a pedido: enviarlo con el informe UNSJ · IIM N.º 012-26 completo, incluida la aclaración química del producto #20/140, que no se publica en la web. Pedir a Cirelli que valide los tres valores de referencia de la tabla de laboratorio (≥ 0,6 / < 3 % / ≤ 250 NTU) contra API STD 19C e ISO 13503-2:2024.
 - WhatsApp: número actual +54 9 11 2325-8971. Si cambia, buscar `5491123258971` y `2325-8971` en `index.html` y `assets/js/main.js`.
 - Política de privacidad: el enlace del pie todavía no apunta a una página.
 - Dirección: revisar que los socios y cargos coincidan con el contrato social inscripto.
